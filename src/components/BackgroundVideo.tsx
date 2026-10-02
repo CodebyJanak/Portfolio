@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 
-const VIDEO_SRC = '/gemini_generated_video_201e81ff~3.mp4';
+const VIDEO_SRC = '/hero-head-track.mp4';
 
 // How quickly the scrubbed time catches the cursor (0..1 per frame).
 // Higher = snappier eyes, lower = heavier head.
