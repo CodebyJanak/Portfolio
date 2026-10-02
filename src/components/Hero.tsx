@@ -121,7 +121,7 @@ export default function Hero() {
             className="inline-flex items-center justify-center text-white bg-transparent border border-white rounded-full text-[13px] sm:text-[15px] px-4 sm:px-5 py-[0.3em] mx-[0.2em] mb-[0.4em] whitespace-nowrap gap-2 sm:gap-3 hover:bg-white hover:text-black transition-colors duration-200 cursor-pointer"
           >
             <span>
-              Reach us:{' '}
+              Reach me:{' '}
               <span className="underline underline-offset-1">{EMAIL}</span>
             </span>
             <CopyIcon />
