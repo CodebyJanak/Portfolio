@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 
-const VIDEO_SRC = '/hero-head-track.mp4';
+const VIDEO_SRC = '/gemini_generated_video_201e81ff~3.mp4';
 
 // How quickly the scrubbed time catches the cursor (0..1 per frame).
 // Higher = snappier eyes, lower = heavier head.
@@ -163,7 +163,7 @@ export default function BackgroundVideo() {
         zIndex: 0,
         willChange: 'transform',
       }}
-      className="h-full w-full object-cover object-[70%_center] md:object-center"
+      className="h-full w-full object-cover object-center md:object-[70%_center]"
     >
       <source src={VIDEO_SRC} type="video/mp4" />
     </video>
